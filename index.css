@@ -55,7 +55,7 @@ a.active {
 }
 
 div.subsection {
-    margin: 0 1% 0 1%;
+    margin: 0 1%;
 }
 
 div.content {
@@ -165,7 +165,9 @@ div.info {
     margin-left: 4%;
 }
 
-div.info > p, div.info > h3, div.info > div {
+div.info>p,
+div.info>h3,
+div.info>div {
     flex-grow: 1;
 }
 
@@ -216,4 +218,104 @@ button.view-details {
     padding: 16px 20px;
     border-radius: 6px;
     align-self: flex-end;
+}
+
+div.host-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img.author {
+    width: 50%;
+    height: 743px;
+    margin: 5% 0;
+}
+
+div.host-label {
+    margin-right: 5%;
+    align-self: center;
+}
+
+button.pointer {
+    background-color: #118DA8;
+    width: 112px;
+    height: 112px;
+    border: 1px solid #118DA8;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+p.meet-your-host {
+    color: #118DA8;
+    font-size: 1.1em;
+    margin-bottom: 3%;
+}
+
+h3.host-name {
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+p.text {
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 33px;
+}
+
+div.form-block {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 32px;
+    display: flex;
+    height: 387px;
+}
+
+div.subscribe {
+    width: 50%;
+    height: 80%;
+    padding-left: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p.email-news {
+    color: #118DA8;
+    font-size: 1.05em;
+}
+
+h3.subscribe {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+div.form {
+    width: 100%;
+}
+
+div.form-block form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    margin: auto;
+    width: 35%;
+}
+
+div.form-block input {
+    background-color: #191919;
+    font-size: 1.45em;
+    padding: 0.8em 0.4em;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 100%;
+}
+
+div.form-block button {
+    background-color: #118DA8;
+    color: white;
+    border: 1px solid #118DA8;
+    border-radius: 6px;
+    width: 87px;
+    height: 48px;
 }
