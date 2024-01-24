@@ -45,11 +45,6 @@ div.nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div,
-section {
-    border: 1px solid white;
-}
-
 a.active {
     color: #118DA8;
 }
@@ -354,4 +349,60 @@ p.author {
     font-size: 1.5em;
     color: #fff;
     opacity: 0.7;
+}
+
+div.footer {
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    justify-content: space-between;
+}
+
+div.community {
+    width: 30%;
+}
+
+div.community>img {
+    margin-bottom: 1em;
+}
+
+div.community img.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5em;
+}
+
+div.nav-list {
+    width: 15%;
+}
+
+div.nav-list li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+
+}
+
+div.footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+div.footer a:visited {
+    color: white;
+}
+
+div.footer a:active {
+    color: #118DA8;
+}
+
+div.podcast-links {
+    width: 30%;
+}
+
+div.podcast-links img {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
 }
